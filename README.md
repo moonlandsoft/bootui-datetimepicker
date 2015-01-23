@@ -24,8 +24,7 @@ to the require section of your `composer.json` file.
 Properties
 ----------
 ## addon
-Addon is a bootstrap input group addon, you can see [bootstrap input group](http://getbootstrap.com/components#input-groups) to details of documentation
-Extend form controls by adding text or buttons before, after, or on both sides of any text-based input.
+Addon is a bootstrap input group addon, you can see [bootstrap input group](http://getbootstrap.com/components#input-groups) to details of documentation. Extend form controls by adding text or buttons before, after, or on both sides of any text-based input.
 
 ## format
 You can change format of date or time using this property but this format only use [momentjs date time format](http://momentjs.com/) and not use php date time format. Click [here](http://momentjs.com/docs/#/displaying/format/) to see all of datetime format.
