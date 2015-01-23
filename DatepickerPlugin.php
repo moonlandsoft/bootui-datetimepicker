@@ -4,8 +4,8 @@ namespace bootui\datetimepicker;
 use yii\web\AssetBundle;
 /**
  * Bootstrap Asset Bundle
- * @author Moh Khoirul Anam <3ch3r46@gmail.com>
- * @copyright 2014
+ * @author Moh Khoirul Anam <moh.khoirul.anaam@gmail.com>
+ * @copyright moonlandsoft 2015
  * @since 1
  */
 class DatepickerPlugin extends AssetBundle

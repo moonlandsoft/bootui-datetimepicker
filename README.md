@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist 3ch3r46/bootui-datetimepicker "*"
+php composer.phar require --prefer-dist moonlandsoft/bootui-datetimepicker "*"
 ```
 
 or add
 
 ```
-"3ch3r46/bootui-datetimepicker": "*"
+"moonlandsoft/bootui-datetimepicker": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -31,6 +31,8 @@ Once the extension is installed, simply use it in your code by  :
 <?= \bootui\datetimepicker\Datepicker::widget(); ?>
 
 <?= \bootui\datetimepicker\Timepicker::widget(); ?>
+
+<?= \bootui\datetimepicker\DateTimepicker::widget(); ?>
 ```
 
 or
@@ -39,4 +41,6 @@ or
 <?= $form->field($model, 'attribute')->widget(Datepicker::className()); ?>
 
 <?= $form->field($model, 'attribute')->widget(Timepicker::className()); ?>
+
+<?= $form->field($model, 'attribute')->widget(DateTimepicker::className()); ?>
 ```

@@ -5,6 +5,13 @@ use yii\widgets\InputWidget;
 use yii\base\InvalidConfigException;
 use yii\helpers\Html;
 
+/**
+ * BasePicker widgets
+ * @author Moh Khoirul Anam <moh.khoirul.anaam@gmail.com>
+ * @copyright moonlandsoft 2015
+ * @since 1
+ *
+ */
 class BasePicker extends InputWidget
 {
 	// SIZE Input

@@ -1,5 +1,5 @@
 {
-    "name": "3ch3r46/bootui-datetimepicker",
+    "name": "moonlandsoft/bootui-datetimepicker",
     "description": "Bootstrap Datepicker and Timepicker in one extentions",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","datetimepicker","bootstrap","timepicker","datepicker"],
@@ -11,7 +11,8 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "*"
+        "yiisoft/yii2": "*",
+        "moonlandsoft/helpers": "*"
     },
     "autoload": {
         "psr-4": {
