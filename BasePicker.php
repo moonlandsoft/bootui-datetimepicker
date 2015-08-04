@@ -35,7 +35,7 @@ class BasePicker extends InputWidget
 	const START_YEAR = 1;
 	const START_DECADE = 2;
 	
-	public $pick = ['date' => false, 'time' => false];
+	public $data = [];
 	
 	/**
 	 * @var string type datepicker
@@ -69,9 +69,7 @@ class BasePicker extends InputWidget
 	 * @var array config datepicker
 	 */
 	protected $clientOptions = [
-		'useCurrent' => false,
-		'autoclose' => true,
-		'todayHighlight' => true,
+		//'useCurrent' => false,
 	];
 	
 	public function __set($name, $value)
@@ -111,8 +109,8 @@ class BasePicker extends InputWidget
 	public function run()
 	{
 		// To set pick the date or time
-		foreach ($this->pick as $option=>$value) {
-			$this->clientOptions['pick' . ucfirst($option)] = $value;
+		foreach ($this->data as $option=>$value) {
+			$this->options['data-' . $option] = $value;
 		}
 		if ($this->type == self::TYPE_RANGE) {
 			$this->registerPlugin($this->groupOptions['id'] . '.input-daterange');
@@ -125,6 +123,10 @@ class BasePicker extends InputWidget
 	
 	protected function renderInput()
 	{
+		if (isset($this->clientOptions['inline']) && $this->clientOptions['inline']==true) {
+			Html::addCssClass($this->options, 'hidden');
+		}
+		
 		if (isset($this->size) && in_array($this->size, ['sm','lg']))
 		{
 			Html::addCssClass($this->options, 'input-' . $this->size);
