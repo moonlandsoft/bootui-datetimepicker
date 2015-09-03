@@ -1,5 +1,7 @@
 Bootstrap Date Time Picker
 ==========================
+[![Latest Stable Version](https://poser.pugx.org/moonlandsoft/bootui-datetimepicker/v/stable)](https://packagist.org/packages/moonlandsoft/bootui-datetimepicker) [![Total Downloads](https://poser.pugx.org/moonlandsoft/bootui-datetimepicker/downloads)](https://packagist.org/packages/moonlandsoft/bootui-datetimepicker) [![Latest Unstable Version](https://poser.pugx.org/moonlandsoft/bootui-datetimepicker/v/unstable)](https://packagist.org/packages/moonlandsoft/bootui-datetimepicker) [![License](https://poser.pugx.org/moonlandsoft/bootui-datetimepicker/license)](https://packagist.org/packages/moonlandsoft/bootui-datetimepicker)
+
 Bootstrap Datepicker and Timepicker in one extentions
 
 Installation
